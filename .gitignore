@@ -16,3 +16,7 @@ logs
 # Python cache
 __pycache__
 *.pyc
+
+# DB files
+*.db
+*.db-journal
