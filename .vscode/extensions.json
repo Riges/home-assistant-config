@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    // Themes
+    "azemoh.one-monokai",
+    "vscode-icons-team.vscode-icons",
+    // Home assistant tools
+    "keesschollaart.vscode-home-assistant",
+    // Extentions
+    "DavidAnson.vscode-markdownlint",
+    "DmitryDorofeev.empty-indent",
+    "ms-python.python",
+    "redhat.vscode-yaml",
+    "samverschueren.final-newline"
+  ]
+}
