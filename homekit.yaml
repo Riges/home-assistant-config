@@ -1,0 +1,24 @@
+# auto_start: false
+name: Dana Homekit Bridge
+filter:
+  include_domains:
+    - climate
+    - cover
+    - lock
+  exclude_domains:
+    - camera
+    - media_player
+    - sensor
+    - script
+    - sensor
+    - switch
+    - scene
+    - light
+  include_entities:
+    - light.office_lights
+    - light.bedroom_lights
+    - light.kitchen_sink
+    - light.kitchen_ceiling
+    - light.toilet_lights
+  # exclude_entities:
+# entity_config:
