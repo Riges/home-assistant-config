@@ -1,0 +1,12 @@
+homeassistant:
+  customize:
+    cover.kitchen_roller_shutter:
+      friendly_name: Volet de la cuisine
+    cover.living_room_roller_shutter:
+      friendly_name: Volet de la cuisine
+    cover.office_roller_shutter:
+      friendly_name: Volet du bureau
+    cover.bedroom_roller_shutter:
+      friendly_name: Volet de la chambre
+    cover.emma_bedroom_roller_shutter:
+      friendly_name: Volet de la chambre d'Emma
