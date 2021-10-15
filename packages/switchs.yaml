@@ -1,0 +1,15 @@
+automation:
+  - alias: Turn off Coffee & Tea switch 10 minutes after activation
+    trigger:
+      - platform: numeric_state
+        entity_id: sensor.kitchen_coffee_and_tea_power
+        below: 100
+        for:
+          minutes: 10
+    condition:
+      condition: state
+      entity_id: switch.kitchen_coffee_and_tea
+      state: "on"
+    action:
+      - service: switch.turn_off
+        entity_id: switch.kitchen_coffee_and_tea

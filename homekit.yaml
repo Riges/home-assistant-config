@@ -3,7 +3,7 @@ name: Dana Homekit Bridge
 filter:
   include_domains:
     - climate
-    - cover
+    # - cover
     - lock
   exclude_domains:
     - camera
@@ -14,6 +14,7 @@ filter:
     - switch
     - scene
     - light
+    - cover
   include_entities:
     - light.office_lights
     - light.bedroom_lights
